@@ -1,0 +1,56 @@
+ 1000  pyenv shell 3.10.1
+ 1001  pwd
+ 1002  cd
+ 1003  cd Desktop/
+ 1004  ls -latr ; mkdir cs149 ; cd cs149
+ 1005  date
+ 1006  pwd
+ 1007  cd ~
+ 1008  cd Desktop/cs149
+ 1009  ls -latr  ; mkdir wsA  ; cd wsA
+ 1010  ls -latr
+ 1011  echo $?
+ 1012  man ps
+ 1013  ps aux
+ 1014  top
+ 1015  wget https://github.com/torvalds/linux/archive/master.zip
+ 1016  curl -L -O https://github.com/torvalds/linux/archive/master.zip
+ 1017  ls -l
+ 1018  unzip master.zip
+ 1019  cd linux-master
+ 1020  pwd
+ 1021  alias l='ls -latr'
+ 1022  l
+ 1023  find . -name mem.c
+ 1024  find . -name mem.c | xargs head
+ 1025  find . -name mem.c | xargs grep 86
+ 1026  cd ..
+ 1027  pwd
+ 1028  pstree
+ 1029  pstree
+ 1030  brew install pstree
+ 1031  pstree
+ 1032  ps -a -f -x
+ 1033  ps -a -f -x | more
+ 1034  top
+ 1035  man kill
+ 1036  echo $?
+ 1037  echo $$
+ 1038  cd ~/Desktop/
+ 1039  cd cs149
+ 1040  cd wsA
+ 1041  ls | wc
+ 1042  ls | sort
+ 1043  ls | sort | wc
+ 1044  ls -latr /bin/  > a.out
+ 1045  cat a.out | more
+ 1046  trace ls
+ 1047  strace ls
+ 1048  sudo dtruss ls
+ 1049  sudo dtruss -t open_nocancel -p $SOMEPID
+ 1050  du -sh .
+ 1051  df -i
+ 1052  history > worksheetA.log
+ 1053  head worksheetA.log
+ 1054  tail worksheetA.log
+ 1055  cat worksheetA.log
