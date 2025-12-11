@@ -6,9 +6,9 @@ cd ~
 cd Desktop/
 ls -latr ; mkdir cs149 ; cd cs149
 git init
-git remote add origin https://github.com/YOUR_USERNAME/cs149.git
-git config --global user.email "youremail"
-git config --global user.name "yourname"
+git remote add origin https://github.com/pranavs741/cs149.git
+git config --global user.email "pranavs741@gmail.com"
+git config --global user.name "Pranav Singh"
 mkdir WS_bonus
 cd WS_bonus
 git add .
